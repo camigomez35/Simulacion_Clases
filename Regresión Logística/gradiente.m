@@ -7,7 +7,7 @@ function w=gradiente(X,Y)
     %Cantidad de iteraciones y saltos entre cada iteración
     maxIter = 200; eta  = 0.01;
     Error=[];
-    Itera=[];}
+    Itera=[];
     %Agregamos una columna de 1 ya que x para W0 es 1
     x2 = [X , ones(N,1)];
     figure(1)

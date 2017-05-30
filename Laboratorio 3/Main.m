@@ -1,13 +1,11 @@
 clc
 clear all
-% close all
+close all
 
 load('Data.mat');
 
 X=Data(:,1:6);
 Y=Data(:,end);
-
-
 
 NumMuestras=size(X,1); 
 Rept=10;
